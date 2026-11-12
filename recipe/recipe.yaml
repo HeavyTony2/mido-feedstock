@@ -40,7 +40,7 @@ tests:
       python_version:
         - ${{ python_min }}.*
         - "*"
-   - script:
+  - script:
       - mido-play --help
       - mido-ports --help
       - mido-serve --help
