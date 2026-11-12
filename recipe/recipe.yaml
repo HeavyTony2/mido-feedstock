@@ -31,6 +31,7 @@ requirements:
   run:
     - python >=${{ python_min }},<4.dev0
     - packaging
+    - python-rtmidi
 
 tests:
   - python:
